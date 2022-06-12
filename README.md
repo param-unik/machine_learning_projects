@@ -16,5 +16,35 @@ conda create -p venv python=3.7 -y
 '''
 conda activate venv\
 
-'''
+```
 pip install -r requirements.txt
+
+```
+# to add all files to git
+```
+git add .
+
+```
+
+# OR
+
+```
+git add <file-name>
+
+```
+
+# to check the git status
+```
+git status
+```
+
+# to check git logs
+```
+git log
+```
+
+# to create version/commit all changes to git
+```
+git commit -m "message"
+
+```
