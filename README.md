@@ -56,3 +56,41 @@ git commit -m "message"
 git push origin main
 
 ```
+
+# Setting up CI/CD Pipeline 
+
+1. HEROKU_EMAIL = xxxx@gmail.com
+2. HEROKU_API_KEY = < api-key >
+3. HEROKU_APP_NAME = ml-prj-demo
+
+# Build Docker image 
+
+```
+docker build -t <image_name>:<tagname> . 
+```
+
+# to list the docker images 
+
+```
+docker images
+```
+
+# Run docker image 
+
+```
+docker run -p 5000:5000 -e PORT=5000 <image-from previous command> 
+```
+
+# to check running docker
+
+```
+docker ps 
+
+```
+
+# to stop docker 
+
+```
+docker stop <container-id>
+
+```
