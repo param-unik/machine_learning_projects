@@ -8,14 +8,17 @@
 
 # Creating Conda Enviroment 
 
-'''
+```
 conda create -p venv python=3.7 -y
 
-'''
+```
 # Activating conda enviroment
-'''
+
+```
 conda activate venv\
 
+```
+# run the below commands to install dependecies 
 ```
 pip install -r requirements.txt
 
@@ -46,5 +49,10 @@ git log
 # to create version/commit all changes to git
 ```
 git commit -m "message"
+
+```
+# to push the changes to git
+```
+git push origin main
 
 ```
